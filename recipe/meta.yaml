@@ -1,5 +1,5 @@
 {% set name = "sciencebasepy" %}
-{% set version = "2.0.19" %}
+{% set version = "2.0.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sciencebasepy-{{ version }}.tar.gz
-  sha256: fb878b22ef8dd37c7f89f373140fe1c1b82d6ae59b6b67020bb745f436244d18
+  sha256: 93ebafcd89a08213f7bed9994bb088687dc15a546aab89a1a362502749e17335
 
 build:
   noarch: python
